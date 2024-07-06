@@ -22,8 +22,8 @@ int quantity;
 int Overall_Sum; // Calculating Overall sum "×ÅÊ"
 
 //Password and login for Owner
-string Owner_Login_Sign = "Rustam202";
-string Owner_Parol_Sign = "Rustam202";
+string Owner_Login_Sign = "Sumangal245";
+string Owner_Parol_Sign = "Sumangal245";
 
 //string Owner_Login_Sign = "1";
 //string Owner_Parol_Sign = "1";
@@ -68,7 +68,7 @@ void F_General_Menu() {
 	for (int i = 0; i < 1000; i++) {
 		system("cls");
 		cout << "____________________________________________________________________________________________________ \n";
-		cout << "        A L I B A Z A R                                             A U T H E N T I C A T I O N     \n";
+		cout << "        M I D N A P O R E                                              A U T H E N T I C A T I O N     \n";
 		cout << "____________________________________________________________________________________________________\n\n";
 		cout << "\t\t\t\t\t  Authentication \n" << endl;
 		cout << "\t\t\t\t\t   1. Sign in" << endl;
@@ -87,14 +87,14 @@ void F_General_Menu() {
 			for (int i = 0; i != 1;) {
 				system("cls");
 				cout << "____________________________________________________________________________________________________ \n";
-				cout << "        A L I B A Z A R                                             R E G I S T R A T I O N         \n";
+				cout << "        M I D N A P O R E                                             R E G I S T R A T I O N         \n";
 				cout << "____________________________________________________________________________________________________\n\n";
 				cout << "\t\t\t\t       Example of Registration: " << endl ;
 				cout << "\t\t\t\t        ______________________" << endl;
-				cout << "\t\t\t\t        User Name  : Abdullokh " << endl;
+				cout << "\t\t\t\t        User Name  : Sumangal " << endl;
 				cout << "\t\t\t\t        Telephone  : 974006102 " << endl;
-				cout << "\t\t\t\t        Login      : Alimov_8 " << endl;
-				cout << "\t\t\t\t        Password   : Alimov808 " << endl;
+				cout << "\t\t\t\t        Login      : Sumangal_8 " << endl;
+				cout << "\t\t\t\t        Password   : Sumangal808 " << endl;
 				cout << "\t\t\t\t        ______________________" << endl << endl;
 				User_1.SetUser();   
 				ValidationParol(User_1);
@@ -150,7 +150,7 @@ void F_Sign_in() {
 	for (int i = 0; i < 1000; i++) {
 		system("cls");
 		cout << "____________________________________________________________________________________________________ \n";
-		cout << "        A L I B A Z A R                                                       S I G N  I N          \n";
+		cout << "        M I D N A P O R E                                                        S I G N  I N          \n";
 		cout << "____________________________________________________________________________________________________\n\n";
 		cout << "\t\t\t\t\t     Sign in\n\n";
 		cout << "\t\t\t\t\t1. Sign in as Owner" << endl;
@@ -162,7 +162,7 @@ void F_Sign_in() {
 		case 49: {  // Sign in as Owner
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                          O W N E R          \n";
+			cout << "        M I D N A P O R E                                                           O W N E R          \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t         Owner Authentication\n\n";
 			cout << "\t\t\t\t\t  Login    : "; cin >> Login_Sign;
@@ -192,7 +192,7 @@ void F_Sign_in() {
 			User_1_Info.close();
 			///////// End of the File Handling
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                     C U S T O M E R         \n";
+			cout << "        M I D N A P O R E                                                      C U S T O M E R         \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t         Customer Authentication\n\n";
 			cout << "\t\t\t\t\t  Login    : "; cin >> Login_Sign;
@@ -227,14 +227,14 @@ void F_Sign_in() {
 
 void F_Developers() {
 	cout << "____________________________________________________________________________________________________ \n";
-	cout << "        A L I B A Z A R                                                           A B O U T        \n";
+	cout << "        M I D N A P O R E                                                            A B O U T        \n";
 	cout << "____________________________________________________________________________________________________\n\n";
-	cout << "\n\t\t\t\t'AliBazar' Online Shopping Aplication " << endl << endl;
+	cout << "\n\t\t\t\t'Midnapore' Online Shopping Aplication " << endl << endl;
 	cout << "\t\t\t  Team Name: EightSoft " << endl;
 	cout << "\t\t\t  Team Section: OOP2 - 004                         " << endl;
 	cout << "\t\t\t  Team Members: " << endl;
 	cout << "                             -----------------------------------------------\n";
-	cout << "\t\t\t\t      Alimov Abdullokh  [U1910060]\n\t\t\t\t      Zokirov Rustam [U1910049] " << endl;
+	cout << "\t\t\t\t      Sumangal karan  [U1910060]\n\t\t\t\t       " << endl;
 	cout << "                             -----------------------------------------------\n";
 
 	cout << "\n\n\t\t           Press any keyboard for back to Menu \n\n" << endl;
@@ -245,14 +245,14 @@ void F_Developers() {
 void F_Logo() {
 	system("cls");
 	cout << "____________________________________________________________________________________________________ \n";
-	cout << "        A L I B A Z A R                                                    8. Account Info         \n";
+	cout << "        M I D N A P O R E                                                     8. Account Info         \n";
 	cout << "____________________________________________________________________________________________________\n\n";
 }
 
 void F_Logo_Owner() {
 	system("cls");
 	cout << "____________________________________________________________________________________________________ \n";
-	cout << "        A L I B A Z A R                                                  O W N E R  M E N U         \n";
+	cout << "        M I D N A P O R E                                                   O W N E R  M E N U         \n";
 	cout << "____________________________________________________________________________________________________\n\n";
 }
 
@@ -276,7 +276,7 @@ void F_Owner_Main_Menu() {
 			/*F_Owner_Customers_List();*/
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                           C U S T O M E R S  L I S T        \n";
+			cout << "        M I D N A P O R E                                            C U S T O M E R S  L I S T        \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\n\t\t\t   Customers list :" << endl << endl;
 			cout << "\t\t      User Name  : " << Name_Memory << endl;
@@ -770,7 +770,7 @@ void F_User_Main_Menu() {
 		case 56: { // User info   
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                   U S E R  I N F O         \n";
+			cout << "        M I D N A P O R E                                                    U S E R  I N F O         \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t    User Information:" << endl << endl;
 			cout << "\t\t\t\t      User Name  : " << Name_Memory << endl;
@@ -947,7 +947,7 @@ void F_Vegetables_Fruits_Menu() {
 		case 56: { // User info   
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                   U S E R  I N F O         \n";
+			cout << "        M I D N A P O R E                                                   U S E R  I N F O         \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t    User Information:" << endl << endl;
 			cout << "\t\t\t\t      User Name  : " << Name_Memory << endl;
@@ -1105,7 +1105,7 @@ void F_Water_Beverages_Menu() {
 		case 56: { // User info   
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                   U S E R  I N F O         \n";
+			cout << "        M I D N A P O R E                                                   U S E R  I N F O         \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t    User Information:" << endl << endl;
 			cout << "\t\t\t\t      User Name  : " << Name_Memory << endl;
@@ -1266,7 +1266,7 @@ void F_Bread_Bakery_Menu() {
 		case 56: { // User info   
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                   U S E R  I N F O         \n";
+			cout << "        M I D N A P O R E                                                    U S E R  I N F O         \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t    User Information:" << endl << endl;
 			cout << "\t\t\t\t      User Name  : " << Name_Memory << endl;

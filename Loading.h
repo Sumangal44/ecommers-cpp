@@ -14,9 +14,9 @@ void gotoXY(int x, int y) {
 void F_Loading() {
 	cout << "\n\n\n\n\n\n";
 	cout << "\t\t\t       -------------------------------------  \n";
-	cout << "\t\t\t         E I G H T S O F T  A C A D E M Y      \n";
+	cout << "\t\t\t           D E S I C O D E  D I A R I E S      \n";
 	cout << "\t\t\t       -------------------------------------  \n";
-	cout << "\t\t\t                   A L I B A Z A R             \n";
+	cout << "\t\t\t                   M I D N A P O R E             \n";
 	cout << "\t\t\t       _____________________________________  \n";
 
 	char a = 219;
